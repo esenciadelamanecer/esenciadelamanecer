@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Conócenos | MILES">
+        <script src="https://kit.fontawesome.com/7e8839d469.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/allstyles.css">
+        <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/conocenos-style.css">
+        <title>Inicio | MILES</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-con">
+            <a href="https://www.miles.com.pe/"><img class="logo" src="assets/svg/LOGOMILES.svg" alt="Logo de Miles Servicios"></a>
+        </div>
+        <span class="menu-icon"><i class="fa-solid fa-bars"></i></span>
+        <nav class="navigation">
+            <ul>
+                <li><a href="https://www.miles.com.pe/">Inicio</a></li>
+                <li><a href="https://www.miles.com.pe/servicios">Servicios</a></li>
+                <li><a href="https://www.miles.com.pe/conócenos">Conócenos</a></li>
+                <li><a href="https://www.miles.com.pe/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>SOBRE NOSOTROS</h1>
+        <div class="info-section">
+            <div class="first-box">
+                <div class="info-con info-right">
+                    <div class="info-img">
+                        <img src="assets/svg/conocenos-svg/quienessomos.svg">
+                    </div>
+                    <div class="info-text">
+                        <h1>¿Quiénes somos?</h1>
+                        <p>Somos una empresa especializada en asesoría empresarial y contable que brinda servicios profesionales con más de 25 años de experiencia. Nos impulsa contribuir en el desarrollo de pequeñas y medianas empresas, prestando servicios de calidad y atención personalizada.</p>
+                    </div>
+                </div>
+                <div class="info-con">
+                    <div class="info-img">
+                        <img src="assets/svg/conocenos-svg/mision.svg">
+                    </div>
+                    <div class="info-text">
+                        <h1>Misión</h1>
+                        <p>Nuestra misión es brindar servicios de calidad logrando la satisfacción de nuestros clientes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="separator">
+                <span>a</span>
+            </div>
+            <div class="second-box res-dir">
+                
+                <div class="info-con">
+                    <div class="info-img">
+                        <img src="assets/svg/conocenos-svg/quehacemos.svg">
+                    </div>
+                    <div class="info-text">
+                        <h1>¿Qué hacemos?</h1>
+                        <p>Brindamos servicios contables, tributarios, administrativos, de gestión humana y softlanding empresarial para nuevos emprendimientos y negocios en marcha.</p>
+                    </div>
+                </div>
+                
+                <div class="info-con info-right">
+                    <div class="info-img">
+                        <img src="assets/svg/conocenos-svg/vision.svg">
+                    </div>
+                    <div class="info-text info-right">
+                        <h1>Visión</h1>
+                        <p>Consolidarnos como la empresa más confiable en el sector de asesoría empresarial con una trayectoria reconocida por nuestra experiencia y capacidad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1>CONÓCENOS</h1>
+        <div class="personas">
+            <div class="box-per">
+                <div class="per-con">
+                    <img src="assets/images/conocenos-img/persona1.webp">
+                    <h1>Miluska Escalante Schuler</h1>
+                    <p>Contador Senior</p>
+                </div>
+                <div class="per-con">
+                    <img src="assets/images/conocenos-img/persona3.webp">
+                    <h1>Lucia Castro</h1>
+                    <p>Contador Junior</p>
+                </div>
+                <div class="per-con">
+                    <img src="assets/images/conocenos-img/KaZa.webp">
+                    <h1>Karen Zapata</h1>
+                    <p>Asistente contable</p>
+                </div>
+            </div>
+
+            <div class="box-per">
+                <div class="per-con">
+                    <img src="assets/images/conocenos-img/persona4.webp">
+                    <h1>Javier Salazar</h1>
+                    <p>Asistente contable</p>
+                </div>
+                <div class="per-con">
+                    <img src="assets/images/conocenos-img/persona5.webp">
+                    <h1>Aaron Ríos</h1>
+                    <p>Asistente contable</p>
+                </div>
+                <div class="per-con">
+                    <img src="assets/images/conocenos-img/JeBre.webp">
+                    <h1>Jessica Breña</h1>
+                    <p>Asistente contable</p>
+                </div>
+                
+                <div class="per-con">
+                    <img src="assets/images/conocenos-img/jhean.webp">
+                    <h1>Jherson Antipa</h1>
+                    <p>Practicante contable</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
+    <a href="https://api.whatsapp.com/send?phone=51970439114" target="_blank"><i class="btn-wsp fa-brands fa-whatsapp"></i></a>
+    <div class="social-bar">
+        <a href="https://www.facebook.com/Miles-Servicio-109949321856618/" target="_blank"><i class="icon fa-brands fa-facebook-f"></i></a>
+        <a href="https://instagram.com/milesservicios?igshid=YmMyMTA2M2Y=" target="_blank"><i class="icon fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/contabilidad-miles2-a82756250" target="_blank"><i class="icon fa-brands fa-linkedin-in"></i></a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-box">
+            <div class="footer-prin-con">
+                <img src="assets/svg/LOGOMILESBLANCO.svg">
+            </div>
+            <div class="footer-sec-con">
+                <h4>CONTÁCTENOS</h4>
+                <p>◉ Dirección: Calle el Boulevard 141, Santiago de Surco (Lima, Perú)</p>
+                <p>◉ Correo: contacto@miles.pe</p>
+                <p>◉ Teléfonos:  +51 970 439 114  / +51 999 199 717</p>
+            </div>
+        </div>
+        <div class="cont-logos">
+            <a href="https://www.facebook.com/Miles-Servicio-109949321856618/" target="_blank"><i class="facebook fa-brands fa-facebook-f"></i></a>
+            <a href="https://instagram.com/milesservicios?igshid=YmMyMTA2M2Y=" target="_blank"><i class="instagram fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/contabilidad-miles2-a82756250" target="_blank"><i class="linkedin fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="signature">
+            <p class="rights">&#169 2022 Derechos Reservados - Miles Servicios E.I.R.L.</p>
+            <p class="author">Desarrollado por Diego Tutaya</p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="scripts/menu.js"></script>
+</body>

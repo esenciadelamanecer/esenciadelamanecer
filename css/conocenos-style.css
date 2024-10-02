@@ -1,0 +1,222 @@
+/*SECCIÓN-INFORMACIÓN-EMPRESA*/
+.info-section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-box, .second-box{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 2rem;
+}
+
+.separator{
+    background-color: #979797;
+    height: 400px;
+    width: 2px;
+}
+
+.separator span{
+    visibility: hidden;
+}
+
+.info-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+
+.info-img{
+    width: 25%;
+}
+
+.info-img img{
+    width: 100%;
+}
+
+.info-text{
+    width: 70%;
+}
+
+.info-text p{
+    font-size: 1.1rem;
+}
+
+.info-right{
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+/*PERSONAS*/
+.personas{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.box-per{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.per-con{
+    width: 30%;
+    max-width: 300px;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'lato', cursive;
+}
+
+.per-con h1{
+    margin: 0;
+    color: #ea0027;
+}
+
+.per-con p{
+    font-size: 1.4rem;
+    padding-top: 1rem;
+}
+
+.per-con img{
+    margin-bottom: 2rem;
+    width: 40%;
+    box-shadow: 0 32px 40px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width:1000px) {
+    .info-section{
+        width: 95%;
+    }
+    
+    .first-box, .second-box{
+        gap: 1rem;
+    }
+
+    .info-con{
+        height: 180px;
+    }
+    
+    .info-img{
+        width: 18%;
+    }
+    
+    .info-text{
+        width: 80%;
+    }
+    
+    .info-text h1{
+        font-size: 1.6rem;
+    }
+
+    .info-text p{
+        font-size: 0.8rem;
+    }
+
+/*PERSONAS*/
+    .box-per{
+        gap: 2rem;
+    }
+
+    .per-con{
+        width: 30%;
+        max-width: 300px;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'lato', cursive;
+    }
+
+    .per-con h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .per-con p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .personas{
+        gap: 2rem;
+    }
+    .per-con{
+        flex-wrap: wrap;
+    }
+
+    .per-con h1{
+        height: 58px;
+    }
+    .info-section{
+        width: 90%;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .first-box, .second-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+    }
+    
+    .separator{
+        display: none;
+    }
+    .info-con{
+        height: auto;
+    }
+
+    .info-img{
+        width: 25%;
+    }
+    
+    
+    .info-text{
+        width: 70%;
+    }
+    
+    .info-text p{
+        font-size: 0.8rem;
+    }
+
+    .info-text h1{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .res-dir{
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .per-con{
+        width: 100%;
+    }
+    
+    .per-con h1{
+        margin: 0;
+        color: #ea0027;
+    }
+    
+    .per-con p{
+        font-size: 1.4rem;
+        padding-top: 1rem;
+    }
+    
+    .per-con img{
+        margin-bottom: 1rem;
+    }
+}

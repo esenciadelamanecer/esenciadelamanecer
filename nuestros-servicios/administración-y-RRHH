@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/7e8839d469.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/allstyles.css">
+        <link rel="stylesheet" href="../css/allservices-styles.css">
+        <link rel="stylesheet" href="../css/adminyrrhh-style.css">
+        <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+        <title>Inicio | MILES</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-con">
+            <a href="https://www.miles.com.pe/"><img class="logo" src="../assets/svg/LOGOMILES.svg" alt="Logo de Miles Servicios"></a>
+        </div>
+        <span class="menu-icon"><i class="fa-solid fa-bars"></i></span>
+        <nav class="navigation">
+            <ul>
+                <li><a href="https://www.miles.com.pe/">Inicio</a></li>
+                <li><a href="https://www.miles.com.pe/servicios">Servicios</a></li>
+                <li><a href="https://www.miles.com.pe/conócenos">Conócenos</a></li>
+                <li><a href="https://www.miles.com.pe/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main-cyf">
+        <div class="img-desc-con">
+            <img class="img-fondo" src="../assets/images/main-cyf/estadistica.webp">
+            <div class="text-img__box">
+                <h1>administración y recursos humanos</h1>
+                <div class="cyf-description">
+                    <p>Administramos los recursos de la empresa y gestionamos tu área laboral.</p>
+                </div>
+                <div class="desc-list-con">
+                    <div class="list-con">
+                        <p class="subtitle">Servicios administrativos</p>
+                        <div class="img-p-con">
+                            <img src="../assets/svg/right-arrow.svg">
+                            <p>Domicilio fiscal</p>
+                        </div>
+    
+                        <div class="img-p-con">
+                            <img src="../assets/svg/right-arrow.svg">
+                            <p>Recepción, clasificación y archivo de documentos</p>
+                        </div>
+    
+                        <div class="img-p-con">
+                            <img src="../assets/svg/right-arrow.svg">
+                            <p>Gestión de cobranzas, pagos y facturación</p>
+                        </div>
+                        
+                        <div class="img-p-con">
+                            <img src="../assets/svg/right-arrow.svg">
+                            <p>Digitalización de documentos</p>
+                        </div>
+                        
+                        <div class="img-p-con">
+                            <img src="../assets/svg/right-arrow.svg">
+                            <p>Tramitación y gestión administrativa</span>
+                        </div>
+                    </div>
+                    <div class="separation">
+                        <span>a</span>
+                    </div>
+                    <div class="list-con">
+                        <p class="subtitle">Gestión de Recursos Humanos</p>
+                        <div class="img-p-con">
+                            <img src="../assets/svg/right-arrow.svg">
+                            <p>Gestión de planillas según régimen laboral</p>
+                        </div>
+    
+                        <div class="img-p-con">
+                            <img src="../assets/svg/right-arrow.svg">
+                            <p>Liquidación de Beneficios Sociales</p>
+                        </div>
+    
+                        <div class="img-p-con">
+                            <img src="../assets/svg/right-arrow.svg">
+                            <p>Control y seguimiento de vigencia de contratos laborales</p>
+                        </div>
+                        
+                        <div class="img-p-con">
+                            <img src="../assets/svg/right-arrow.svg">
+                            <p>Atenciones de fiscalizaciones SUNAFIL</p>
+                        </div>
+                        <div class="img-p-con">
+                            <img src="../assets/svg/right-arrow.svg">
+                            <p>Asesoría laboral permanente</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-cards">
+            <div class="cards">
+                <img src="../assets/images/cards/contabilidadyfinanzas.webp">
+                <h5>Contabilidad y Finanzas</h5>
+                <a href="https://www.miles.com.pe/nuestros-servicios/contabilidad-y-finanzas">Ver más &#62;&#62;</a>
+            </div>
+
+            <div class="cards">
+                <img src="../assets/images/cards/tributación.webp">
+                <h5>Tributación</h5>
+                <a href="https://www.miles.com.pe/nuestros-servicios/tributación">Ver más &#62;&#62;</a>
+            </div>
+
+            <div class="cards">
+                <img src="../assets/images/cards/softlanding.webp">
+                <h5>Softlanding</h5>
+                <a href="https://www.miles.com.pe/nuestros-servicios/softlanding">Ver más &#62;&#62;</a>
+            </div>
+            
+            <div class="cards">
+                <img src="../assets/images/cards/servext.webp">
+                <h5>Servicios para peruanos en el extranjero</h5>
+                <a href="https://www.miles.com.pe/nuestros-servicios/servicios-para-peruanos-en-el-extranjero">Ver más &#62;&#62;</a>
+            </div>
+        </div>
+    </main>
+    
+    <a href="https://api.whatsapp.com/send?phone=51970439114" target="_blank"><i class="btn-wsp fa-brands fa-whatsapp"></i></a>
+    <div class="social-bar">
+        <a href="https://www.facebook.com/Miles-Servicio-109949321856618/" target="_blank"><i class="icon fa-brands fa-facebook-f"></i></a>
+        <a href="https://instagram.com/milesservicios?igshid=YmMyMTA2M2Y=" target="_blank"><i class="icon fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/contabilidad-miles2-a82756250" target="_blank"><i class="icon fa-brands fa-linkedin-in"></i></a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-box">
+            <div class="footer-prin-con">
+                <img src="../assets/svg/LOGOMILESBLANCO.svg">
+            </div>
+            <div class="footer-sec-con">
+                <h4>CONTÁCTENOS</h4>
+                <p>◉ Dirección: Calle el Boulevard 141, Santiago de Surco (Lima, Perú)</p>
+                <p>◉ Correo: contacto@miles.pe</p>
+                <p>◉ Teléfonos:  +51 970 439 114  / +51 999 199 717</p>
+            </div>
+        </div>
+        <div class="cont-logos">
+            <a href="https://www.facebook.com/Miles-Servicio-109949321856618/" target="_blank"><i class="facebook fa-brands fa-facebook-f"></i></a>
+            <a href="https://instagram.com/milesservicios?igshid=YmMyMTA2M2Y=" target="_blank"><i class="instagram fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/contabilidad-miles2-a82756250" target="_blank"><i class="linkedin fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="signature">
+            <p class="rights">&#169 2022 Derechos Reservados - Miles Servicios E.I.R.L.</p>
+            <p class="author">Desarrollado por Diego Tutaya</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="../scripts/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+/*CAROUSEL*/
+
+.ajustar-img{
+    height: 600px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.carousel-caption{
+    display: flex !important;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    text-align: left;
+    left: 15%;
+
+}
+
+    .carousel-caption span{
+        font-size: 3.5rem;
+        word-wrap: break-word;
+    }
+
+.text-img{
+    display: inline-block;
+    font-size: 70px;
+    margin: 0;
+    line-height: 90px;
+}
+
+/*SECCIÓN-CRIPTO*/
+.cripto-con{
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+
+.img-cripto-con{
+    width: 50%;
+}
+
+.img-cripto{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cripto-text{
+    width: 50%;
+    height: auto;
+    padding: 3rem 5rem;
+    background-color: #ffddb0;
+    color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .cripto-text p{
+        font-size: 22px;
+    }
+
+    .cripto-text h2{
+        padding-bottom: 1rem;
+        text-transform: uppercase;
+        font-size: 2.2rem;
+        color: #ea8500;
+    }
+
+/*SECCIÓN-ESTADÍSTICA*/
+
+.statistics-con{
+    width: 75%;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+    margin: 0rem auto 5rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 32px 40px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.box-con{
+    padding: 0;
+}
+.box-con h2{
+    color: #ea0027;
+    padding-bottom: 1rem;
+    font-size: 72px;
+    font-weight: 900;
+    display: inline-block;
+    animation: floating 3s infinite ease-in-out;
+}
+.box-con p{
+    text-transform: uppercase;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+/*HERRAMIENTAS*/
+
+.herramientas-imgs{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+    .herramientas-imgs img{
+        height: 100px;
+        padding: 1rem;
+        margin: 0.5rem;
+        border: #171717 2px solid;
+    }
+
+.tools-box-con1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+.qsimg{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.cont{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.or{
+    color: #ea8500;
+}
+
+@media screen and (max-width:1000px) {
+    /*CAROUSEL*/
+    .ajustar-img{
+        height: 400px;
+    }
+
+    .text-img{
+        font-size: 3rem;
+        line-height: normal;
+    }
+    .carousel-caption span{
+        font-size: 2rem;
+    }
+
+    /*CRIPTO-SECTION*/
+    .cripto-con{
+        flex-direction: column;
+    }
+
+    .img-cripto-con{
+        width: 100%;
+        height: 360px;
+    }
+
+    .cripto-text{
+        width: 100%;
+        padding: 3rem;
+    }
+
+    .cripto-text p{
+        font-size: 1.1rem;
+    }
+
+    .cripto-text h2{
+        font-size: 1.7rem;
+    }
+
+    /*ESTATISTIC-SECTION*/
+    .statistics-con{
+        width: 85%;
+    }
+
+    .box-con h2{
+        font-size: 3rem;
+    }
+    .box-con p{
+        font-size: 1rem;
+    }
+
+    /*HERRAMIENTAS*/
+    .herramientas-imgs{
+        width: 90%;
+    }
+
+    .herramientas-imgs img{
+        height: 60px;
+        padding: 0.4rem;
+    }
+    
+}
+
+@media screen and (max-width:720px) {
+    .ajustar-img{
+        height: 350px;
+        filter: brightness(80%);
+    }
+
+    .text-img{
+        font-size: 2rem;
+        padding-right: 2rem;
+    }
+
+    .carousel-caption span{
+        font-size: 1.4rem;
+        word-wrap: break-word;
+    }
+
+    .cripto-text{
+        padding: 2rem 1rem;
+    }
+    
+    .img-cripto-con{
+        height: 300px;
+    }
+
+    .herramientas-imgs img{
+        height: 38px;
+        padding: 0.1;
+        margin: 0.3rem;
+    }
+
+    .box-con h2{
+        padding-bottom: 0.5;
+        font-size: 40px;
+        font-weight: 900;
+        display: inline-block;
+        animation: floating 3s infinite ease-in-out;
+    }
+    .box-con p{
+        text-transform: uppercase;
+        font-size: 15px;
+        word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    .text-img{
+        font-size: 1.4rem;
+    }
+
+    .carousel-caption span{
+        font-size: 1rem;
+    }
+}
