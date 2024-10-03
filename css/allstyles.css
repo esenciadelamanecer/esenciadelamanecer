@@ -5,6 +5,15 @@
     font-family: 'Caudex', cursive;
 }
 
+.or{
+    color: #ea8500;
+}
+.cont{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
 /*MAIN*/
 body{
     background-color: #fdf4e9;
@@ -144,11 +153,11 @@ main > h1{
 
 .cards{
     background-color: #fff0dd;
+    border-radius: 1rem;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 300px;
     height: 100%;
-    padding-bottom: 2rem;
     transition: all 0.25s;
     margin-bottom: 3rem;
 }
@@ -159,6 +168,8 @@ main > h1{
     }
 
     .cards img{
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
         width: 100%;
         height: 232px;
         object-fit: cover;
@@ -171,7 +182,6 @@ main > h1{
         height: 80px;
         font-weight: bold;
         margin: 0;
-        padding-bottom: 2.3rem;
     }
 
     .cards a{
@@ -285,7 +295,7 @@ a{
     margin: 1.5rem auto;
 }
 
-.facebook, .instagram, .linkedin{
+.facebook, .instagram, .youtube{
     width: 40px;
     text-align: center;
     background-color: #ffac18;
@@ -297,7 +307,7 @@ a{
     transition: all 500ms ease-in-out;
 }
 
-.linkedin:hover, .facebook:hover, .instagram:hover{
+.youtube:hover, .facebook:hover, .instagram:hover{
     color: #ffac18;
     background-color: white;
 }
@@ -328,6 +338,11 @@ a{
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
+}
+
+.signature a {
+    user-select: none;
+    color: white;
 }
 
 .rights, .author{
@@ -382,6 +397,10 @@ a{
 
 /*RESPONSIVE*/
 
+.bg{
+    color: white !important;
+}
+
 @media screen and (max-width: 1000px){
     /*HEADER*/
 
@@ -396,7 +415,7 @@ a{
     }
 
     .logo{
-        width: 110px;
+        height: 60px;
     }
 
     .navigation ul li a{
@@ -510,7 +529,7 @@ a{
     }
     
     .navigation ul li a{
-        padding: 1rem 0;
+        padding: 0.5rem 0;
         text-align: left;
     }
     

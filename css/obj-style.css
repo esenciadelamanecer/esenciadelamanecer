@@ -1,0 +1,41 @@
+.container{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.text{
+  width: 50%;
+  font-size: 1.3rem;
+}
+
+.image{
+  width: 40%;
+}
+
+.image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width:1000px) {
+  .container{
+    flex-direction: column;
+  }
+
+  .text{
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .image{
+    width: 100%;
+  }
+  .image img{
+    height: 200px;
+    object-fit: cover;
+  }
+}
